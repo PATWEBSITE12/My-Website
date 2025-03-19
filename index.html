@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Website</title>
+    <title>TOTAL REWARDS</title>
     <style>
         body {
             font-family: 'Poppins', sans-serif;
@@ -17,13 +17,19 @@
             background: #222;
             display: flex;
             align-items: center;
+            justify-content: center;
             padding: 15px 20px;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 0;
+            z-index: 1000;
         }
         .navbar a {
             color: white;
             text-decoration: none;
             padding: 10px 20px;
-            margin: 0 5px;
+            margin: 0 10px;
             font-weight: bold;
         }
         .navbar a:hover {
@@ -39,6 +45,19 @@
             background: #1b7a1b;
         }
         /* Content Styling */
+        .content {
+            padding-top: 80px; /* Adjusted spacing for fixed navbar */
+            text-align: center;
+        }
+        header {
+            background: linear-gradient(90deg, #003b80, #002b5c);
+            color: white;
+            text-align: center;
+            padding: 20px;
+            font-size: 26px;
+            font-weight: bold;
+            border-radius: 0 0 10px 10px;
+        }
         .container {
             max-width: 800px;
             margin: 20px auto;
@@ -77,14 +96,23 @@
     <div class="navbar">
         <a href="#">HOME</a>
         <a href="#">ABOUT US</a>
-        <a href="#">TYPE OF BENEFITS</a>
+        <a href="#">SERVICES</a>
                <a href="#" class="contact-btn">CONTACT US</a>
     </div>
 
-    <header>WELCOME TO HRD-SD</header>
-    
-    <div class="container">
-        <h2>TOTAL REWARDS</h2>
-        <p>Hi, We <b>are the SD TEAM</b>. Welcome to our website.</p>
-        <a href="#" class="button">Learn More</a>
-    
+    <div class="content">
+        <header>WELCOME TO HRD-SD</header>
+        
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, We are <b>the PGB HR SD TEAM</b>. Welcome to our Website.</p>
+            <a href="#" class="button">Learn More</a>
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2025 All Rights Reserved
+    </footer>
+
+</body>
+</html>
